@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Мастерская Торжеств — организация праздников в Москве и МО</title>
+<meta name="description" content="Организация свадеб, корпоративов, юбилеев, банкетов, фуршетов, дискотек и детских праздников под ключ. Москва и Московская область. Одна команда ведёт мероприятие от идеи до последнего гостя.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="header" id="header">
+  <div class="container header__inner">
+    <a href="#top" class="logo">
+      <svg class="logo__icon" width="30" height="30" viewBox="0 0 24 24" fill="none"><path d="M12 2v6M12 16v6M2 12h6M16 12h6M5 5l4 4M15 15l4 4M19 5l-4 4M9 15l-4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+      <span class="logo__text">
+        <span class="logo__main">Мастерская Торжеств</span>
+        <span class="logo__suffix">организация праздников</span>
+      </span>
+    </a>
+    <nav class="nav" id="nav">
+      <a href="#about">О нас</a>
+      <a href="#services">Услуги</a>
+      <a href="#formats">Форматы</a>
+      <a href="#price">Стоимость</a>
+      <a href="#process">Как проходит</a>
+      <a href="#faq">Вопросы</a>
+      <a href="#contact">Контакты</a>
+    </nav>
+    <div class="header__actions">
+      <a href="tel:+79001234567" class="header__phone">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.3 21 3 13.7 3 4.8c0-.6.4-1 1-1h3.4c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.4 0 .8-.2 1L6.6 10.8Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+        <span>+7 (900) 123-45-67</span>
+      </a>
+      <a href="#form" class="btn btn--primary btn--sm">Оставить заявку</a>
+    </div>
+    <button class="burger" id="burger" aria-label="Меню">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero__inner">
+      <div class="hero__content">
+        <p class="eyebrow">Организация праздников · Москва и Московская область</p>
+        <h1>Праздник любого формата — <span>от идеи до последнего тоста</span></h1>
+        <p class="hero__lead">Берём на себя организацию свадеб, корпоративов, юбилеев, банкетов, фуршетов, дискотек и детских праздников. Вы получаете готовое мероприятие, а не список подрядчиков, которых нужно самим сводить в один сценарий.</p>
+        <div class="hero__cta">
+          <a href="#form" class="btn btn--primary">Оставить заявку</a>
+          <a href="tel:+79001234567" class="btn btn--ghost">Позвонить</a>
+        </div>
+        <div class="hero__stats">
+          <div class="stat">
+            <span class="stat__num">7</span>
+            <span class="stat__label">форматов праздников — от свадьбы до корпоратива</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num">1</span>
+            <span class="stat__label">команда ведёт весь процесс, без разрозненных подрядчиков</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num">2</span>
+            <span class="stat__label">региона — Москва и вся Московская область</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero__card">
+        <img src="https://loremflickr.com/600/800/eventplanning,decoration/all?lock=61" alt="Декор праздничного мероприятия" class="hero__card-photo">
+        <div class="hero__card-body">
+          <div class="hero__card-badge">Мастерская Торжеств</div>
+          <ul class="hero__card-list">
+            <li>Один организатор ведёт мероприятие от концепции до последнего гостя</li>
+            <li>Работаем с любым масштабом: от камерного дня рождения до корпоратива на 200 человек</li>
+            <li>Выезжаем на площадки в Москве и по всей Московской области</li>
+          </ul>
+          <div class="hero__card-quote">«Праздник получается цельным, когда за него отвечает один организатор, а не пять разных компаний»</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- О НАС -->
+  <section class="about" id="about">
+    <div class="container">
+      <p class="section-eyebrow">О нас</p>
+      <h2 class="section-title">Организуем праздники под ключ</h2>
+      <p class="about__text">Мы — команда организаторов, которая берёт на себя всю подготовку мероприятия: концепцию, площадку, ведущего, декор, меню и программу. Работаем в Москве и Московской области с любым форматом события — свадьба, корпоратив, юбилей, детский праздник, банкет, фуршет или дискотека. Вы формулируете повод и пожелания — мы превращаем их в готовый сценарий и берём на себя всю координацию в день праздника.</p>
+
+      <div class="audience">
+        <div class="audience__card">
+          <div class="audience__icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M12 21s-7-4.35-9.5-8.5C.5 8.5 3 4.5 7 4.5c2 0 3.5 1 5 3 1.5-2 3-3 5-3 4 0 6.5 4 4.5 8-2.5 4.15-9.5 8.5-9.5 8.5z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Личное торжество</h3>
+          <p>Свадьба, юбилей, день рождения — хотите, чтобы праздник был про эмоции и гостей, а не про переговоры с подрядчиками.</p>
+        </div>
+        <div class="audience__card">
+          <div class="audience__icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none"><rect x="3" y="4" width="18" height="16" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M3 9h18M8 3v3M16 3v3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Корпоративное мероприятие</h3>
+          <p>Корпоратив, фуршет для партнёров, праздник для коллектива — важен контроль по срокам и бюджету, без накладок перед коллегами.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ПРЕИМУЩЕСТВА -->
+  <section class="principles">
+    <div class="container">
+      <p class="section-eyebrow">Почему с нами удобно</p>
+      <h2 class="section-title">Как мы работаем</h2>
+      <div class="grid-4">
+        <div class="principle">
+          <div class="principle__icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M12 3v18M3 12h18" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.6"/></svg>
+          </div>
+          <h3>Полный цикл под ключ</h3>
+          <p>От идеи и сметы до последнего гостя на площадке — не нужно самим искать и сводить подрядчиков.</p>
+        </div>
+        <div class="principle">
+          <div class="principle__icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M12 21c4.97-3.4 8-7.03 8-11a8 8 0 10-16 0c0 3.97 3.03 7.6 8 11z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><circle cx="12" cy="10" r="2.4" stroke="currentColor" stroke-width="1.6"/></svg>
+          </div>
+          <h3>Любой формат и масштаб</h3>
+          <p>От камерного дня рождения на 10 человек до корпоратива на 200 — подбираем решение под ваше событие.</p>
+        </div>
+        <div class="principle">
+          <div class="principle__icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Прозрачная смета</h3>
+          <p>Считаем стоимость по вашему сценарию и фиксируем её до предоплаты — без скрытых доплат в процессе.</p>
+        </div>
+        <div class="principle">
+          <div class="principle__icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><rect x="3" y="4" width="18" height="16" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M3 9h18M8 3v3M16 3v3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Москва и вся область</h3>
+          <p>Выезжаем на площадку в пределах Москвы и Московской области — расскажите адрес, подберём логистику.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- УСЛУГИ -->
+  <section class="services" id="services">
+    <div class="container">
+      <p class="section-eyebrow">Форматы работы</p>
+      <h2 class="section-title">Услуги</h2>
+      <div class="grid-services">
+        <div class="service">
+          <div class="service__icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 21s-7-4.35-9.5-8.5C.5 8.5 3 4.5 7 4.5c2 0 3.5 1 5 3 1.5-2 3-3 5-3 4 0 6.5 4 4.5 8-2.5 4.15-9.5 8.5-9.5 8.5z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg></div>
+          <h3>Свадьбы</h3>
+          <p>Концепция, площадка, декор, ведущий и координация дня свадьбы — от регистрации до последнего танца.</p>
+          <span class="service__tag">Индивидуальный расчёт</span>
+        </div>
+        <div class="service">
+          <div class="service__icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><rect x="3" y="4" width="18" height="16" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M3 9h18M8 3v3M16 3v3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></div>
+          <h3>Корпоративы</h3>
+          <p>Праздник для коллектива или мероприятие для партнёров — сценарий, площадка, программа, кейтеринг.</p>
+          <span class="service__tag">Индивидуальный расчёт</span>
+        </div>
+        <div class="service">
+          <div class="service__icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.6"/><path d="M9 9l2 2-2 2M15 9l-2 2 2 2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <h3>Дискотеки</h3>
+          <p>Танцевальная программа с диджеем, светом и звуком — как отдельное событие или часть большого праздника.</p>
+          <span class="service__tag">Индивидуальный расчёт</span>
+        </div>
+        <div class="service">
+          <div class="service__icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 2l2.5 6.5L21 9l-5 4.5L17.5 21 12 17l-5.5 4L8 13.5 3 9l6.5-.5L12 2Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg></div>
+          <h3>Юбилеи</h3>
+          <p>Тёплый семейный праздник или торжество с большим количеством гостей — сценарий под ваш повод.</p>
+          <span class="service__tag">Индивидуальный расчёт</span>
+        </div>
+        <div class="service">
+          <div class="service__icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M4 20h16M6 20V10l6-6 6 6v10" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg></div>
+          <h3>Банкеты</h3>
+          <p>Рассадка, меню, сервировка и ведение вечера — от делового ужина до праздничного застолья.</p>
+          <span class="service__tag">Индивидуальный расчёт</span>
+        </div>
+        <div class="service">
+          <div class="service__icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M4 6h16M4 12h16M4 18h10" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></div>
+          <h3>Фуршеты</h3>
+          <p>Лёгкий формат для делового или праздничного повода — фуршетное меню, стойки, обслуживание.</p>
+          <span class="service__tag">Индивидуальный расчёт</span>
+        </div>
+        <div class="service">
+          <div class="service__icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 3c1.5 2 1.5 3.5 0 5-1.5-1.5-1.5-3 0-5Z" stroke="currentColor" stroke-width="1.5"/><path d="M6 21c0-5 2.5-8 6-8s6 3 6 8" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></div>
+          <h3>Детские праздники</h3>
+          <p>Аниматоры, шоу-программа, декор и меню для гостей любого возраста — от дня рождения до выпускного.</p>
+          <span class="service__tag">Индивидуальный расчёт</span>
+        </div>
+        <div class="service">
+          <div class="service__icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <h3>Комплексная организация</h3>
+          <p>Совмещаем несколько форматов в одном событии — например банкет с дискотекой или корпоратив с фуршетом.</p>
+          <span class="service__tag">Индивидуальный расчёт</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ФОРМАТЫ (галерея) -->
+  <section class="formats" id="formats">
+    <div class="container">
+      <p class="section-eyebrow">Форматы, с которыми работаем</p>
+      <h2 class="section-title">Каждый праздник — свой сценарий</h2>
+      <div class="formats__grid">
+        <div class="format-card"><img src="https://loremflickr.com/500/650/wedding,bride/all?lock=21" alt="Свадьба"><span class="format-card__label">Свадьбы</span></div>
+        <div class="format-card"><img src="https://loremflickr.com/500/650/conference,event/all?lock=33" alt="Корпоратив"><span class="format-card__label">Корпоративы</span></div>
+        <div class="format-card"><img src="https://loremflickr.com/500/650/nightclub,lights/all?lock=27" alt="Дискотека"><span class="format-card__label">Дискотеки</span></div>
+        <div class="format-card"><img src="https://loremflickr.com/500/650/birthday,balloons/all?lock=9" alt="Юбилей"><span class="format-card__label">Юбилеи</span></div>
+        <div class="format-card"><img src="https://loremflickr.com/500/650/banquet,dinner/all?lock=45" alt="Банкет"><span class="format-card__label">Банкеты</span></div>
+        <div class="format-card"><img src="https://loremflickr.com/500/650/buffet,catering/all?lock=19" alt="Фуршет"><span class="format-card__label">Фуршеты</span></div>
+        <div class="format-card"><img src="https://loremflickr.com/500/650/kids,party/all?lock=6" alt="Детский праздник"><span class="format-card__label">Детские праздники</span></div>
+        <div class="format-card"><img src="https://loremflickr.com/500/650/celebration,party/all?lock=42" alt="Праздничная программа"><span class="format-card__label">Праздничная программа</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- СТОИМОСТЬ -->
+  <section class="price" id="price">
+    <div class="container">
+      <p class="section-eyebrow">Стоимость</p>
+      <h2 class="section-title">Как считаем смету</h2>
+      <div class="price__factors">
+        <div class="price__factor">
+          <span class="price__factor-num">1</span>
+          <div><h3>Формат и количество гостей</h3><p>Свадьба на 30 человек и корпоратив на 200 требуют разного бюджета и подрядчиков.</p></div>
+        </div>
+        <div class="price__factor">
+          <span class="price__factor-num">2</span>
+          <div><h3>Площадка и удалённость</h3><p>Москва или Московская область, аренда зала или выезд на открытую территорию.</p></div>
+        </div>
+        <div class="price__factor">
+          <span class="price__factor-num">3</span>
+          <div><h3>Меню и сервировка</h3><p>Банкетное меню, фуршетные стойки или кейтеринг под конкретный формат.</p></div>
+        </div>
+        <div class="price__factor">
+          <span class="price__factor-num">4</span>
+          <div><h3>Декор и программа</h3><p>Оформление зала, диджей, ведущий, аниматоры, шоу-программа — по вашему сценарию.</p></div>
+        </div>
+      </div>
+      <p class="price__note"><strong>Цены — индивидуально, по согласованию.</strong> Мы не работаем по типовому прайсу, потому что бюджет каждого праздника складывается из разных вводных. Расскажите повод, дату и примерное количество гостей — вернёмся с расчётом и предложением площадки.</p>
+    </div>
+  </section>
+
+  <!-- ПРОЦЕСС -->
+  <section class="process" id="process">
+    <div class="container">
+      <p class="section-eyebrow">Как это устроено</p>
+      <h2 class="section-title">Процесс работы</h2>
+      <div class="steps">
+        <div class="step">
+          <div class="step__num">1</div>
+          <h3>Заявка</h3>
+          <p>Оставляете заявку на сайте или звоните — рассказываете повод и примерную дату.</p>
+        </div>
+        <div class="step">
+          <div class="step__num">2</div>
+          <h3>Бриф</h3>
+          <p>Обсуждаем формат, количество гостей, пожелания по площадке и бюджет.</p>
+        </div>
+        <div class="step">
+          <div class="step__num">3</div>
+          <h3>Концепция и смета</h3>
+          <p>Предлагаем сценарий и подрядчиков, фиксируем итоговую стоимость.</p>
+        </div>
+        <div class="step">
+          <div class="step__num">4</div>
+          <h3>Подготовка</h3>
+          <p>Согласовываем площадку, меню, декор и программу, держим вас в курсе на каждом шаге.</p>
+        </div>
+        <div class="step">
+          <div class="step__num">5</div>
+          <h3>Мероприятие</h3>
+          <p>В день праздника наша команда на площадке — от начала до последнего гостя.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq" id="faq">
+    <div class="container">
+      <p class="section-eyebrow">Частые вопросы</p>
+      <h2 class="section-title">FAQ</h2>
+      <div class="faq__list">
+        <details class="faq__item">
+          <summary>Как рассчитывается стоимость праздника?</summary>
+          <p>Смета складывается из формата и числа гостей, площадки, меню, декора и программы. Фиксированного прайса нет — присылаем расчёт после короткого брифа по вашему событию.</p>
+        </details>
+        <details class="faq__item">
+          <summary>Работаете ли вы за пределами Москвы?</summary>
+          <p>Да, выезжаем по всей Московской области. Расскажите адрес площадки — учтём логистику в расчёте.</p>
+        </details>
+        <details class="faq__item">
+          <summary>Можно доверить вам только часть организации — например, только диджея или декор?</summary>
+          <p>Да. Берём мероприятие под ключ целиком или закрываем отдельные задачи — обсуждаем на этапе брифа.</p>
+        </details>
+        <details class="faq__item">
+          <summary>За сколько нужно бронировать дату?</summary>
+          <p>Чем раньше, тем больше выбор площадок и подрядчиков, особенно в сезон свадеб и корпоративов. Но обсуждаем и более сжатые сроки — зависит от формата.</p>
+        </details>
+        <details class="faq__item">
+          <summary>Работаете с любым бюджетом?</summary>
+          <p>Подбираем решение под ваш бюджет и формат — от камерного праздника до мероприятия на большое количество гостей.</p>
+        </details>
+        <details class="faq__item">
+          <summary>Как проходит первый разговор?</summary>
+          <p>Обсуждаем повод, дату, количество гостей и пожелания. После этого готовим концепцию и смету — без обязательств с вашей стороны.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ФОРМА -->
+  <section class="form-section" id="form">
+    <div class="container form-section__inner">
+      <div class="form-section__text">
+        <p class="section-eyebrow">Заявка</p>
+        <h2 class="section-title">Оставьте заявку</h2>
+        <p>Расскажите коротко о поводе, дате и количестве гостей — вернёмся с расчётом и предложением по площадке.</p>
+        <div class="form-section__contacts">
+          <a href="tel:+79001234567" class="contact-card">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.3 21 3 13.7 3 4.8c0-.6.4-1 1-1h3.4c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.4 0 .8-.2 1L6.6 10.8Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+            <span>+7 (900) 123-45-67</span>
+          </a>
+        </div>
+        <div class="map-frame">
+          <iframe src="https://yandex.ru/map-widget/v1/?ll=37.6173%2C55.7558&z=9" allowfullscreen></iframe>
+        </div>
+      </div>
+      <form class="form" id="leadForm">
+        <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+        <label>
+          <span>Имя</span>
+          <input type="text" name="name" placeholder="Как к вам обращаться" required>
+        </label>
+        <label>
+          <span>Телефон</span>
+          <input type="tel" name="phone" placeholder="+7 (___) ___-__-__" required>
+        </label>
+        <label>
+          <span>Тип мероприятия</span>
+          <select name="event_type">
+            <option value="">Не выбрано</option>
+            <option value="Свадьба">Свадьба</option>
+            <option value="Корпоратив">Корпоратив</option>
+            <option value="Юбилей">Юбилей</option>
+            <option value="Банкет">Банкет</option>
+            <option value="Фуршет">Фуршет</option>
+            <option value="Дискотека">Дискотека</option>
+            <option value="Детский праздник">Детский праздник</option>
+            <option value="Другое">Другое</option>
+          </select>
+        </label>
+        <label>
+          <span>Коротко о мероприятии</span>
+          <textarea name="comment" rows="3" placeholder="Дата, количество гостей, пожелания"></textarea>
+        </label>
+        <button type="submit" class="btn btn--primary btn--block">Отправить заявку</button>
+        <p class="form__hint">Нажимая кнопку, вы соглашаетесь с <a href="privacy.html">обработкой персональных данных</a>.</p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer" id="contact">
+  <div class="container footer__inner">
+    <div class="footer__brand">
+      <span class="logo__main">Мастерская Торжеств</span>
+      <p>Организация праздников, Москва и Московская область</p>
+    </div>
+    <div class="footer__links">
+      <a href="tel:+79001234567">+7 (900) 123-45-67</a>
+      <a href="mailto:info@masterskaya-torzhestv.ru">info@masterskaya-torzhestv.ru</a>
+      <a href="privacy.html">Политика конфиденциальности</a>
+    </div>
+    <div class="footer__copy">
+      <span>© <span id="year"></span> Мастерская Торжеств</span>
+    </div>
+  </div>
+</footer>
+
+<a href="tel:+79001234567" class="fab" aria-label="Позвонить">
+  <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.3 21 3 13.7 3 4.8c0-.6.4-1 1-1h3.4c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.4 0 .8-.2 1L6.6 10.8Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>

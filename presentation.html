@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Мастерская Торжеств — организация праздников под ключ</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="doc-header">
+  <div class="container doc-bar">
+    <a href="index.html" class="logo__main">Мастерская Торжеств</a>
+    <div class="doc-bar__actions">
+      <a href="index.html" class="btn btn--ghost btn--sm">На сайт</a>
+    </div>
+  </div>
+</header>
+
+<main class="container doc-hero">
+  <span class="tag">Организация праздников · Москва и Московская область</span>
+  <h1>Праздник любого формата — от идеи до последнего тоста</h1>
+  <p>Свадьба, корпоратив, юбилей, банкет, фуршет, дискотека или детский праздник — ниже о том, как проходит работа и что вы получаете на каждом этапе.</p>
+</main>
+
+<section class="container doc-section">
+  <h2>Что вы получаете</h2>
+  <div class="usp-grid">
+    <div class="usp"><span class="usp__num">1</span><p>команда ведёт весь процесс — от концепции до последнего гостя на площадке</p></div>
+    <div class="usp"><span class="usp__num">7</span><p>форматов праздников: свадьбы, корпоративы, юбилеи, банкеты, фуршеты, дискотеки, детские праздники</p></div>
+    <div class="usp"><span class="usp__num">2</span><p>региона на выбор — Москва и вся Московская область</p></div>
+  </div>
+
+  <h2>Форматы работы</h2>
+  <div class="grid grid--3">
+    <div class="doc-service"><span class="doc-service__tag">Личные торжества</span><h4>Свадьбы и юбилеи</h4><p>Концепция, площадка, декор, ведущий и координация дня — от начала до последнего танца.</p></div>
+    <div class="doc-service"><span class="doc-service__tag">Для коллектива</span><h4>Корпоративы и фуршеты</h4><p>Сценарий, площадка, программа и кейтеринг для праздника коллектива или партнёров.</p></div>
+    <div class="doc-service"><span class="doc-service__tag">Любой возраст</span><h4>Детские праздники</h4><p>Аниматоры, шоу-программа, декор и меню для гостей любого возраста.</p></div>
+  </div>
+
+  <h2>Как формируется стоимость</h2>
+  <p style="color:var(--ink-soft); font-size:15px; margin-bottom:16px;">Фиксированного прайса нет — смета собирается индивидуально из четырёх составляющих:</p>
+  <div class="grid grid--3">
+    <div class="doc-service"><h4>Формат и гости</h4><p>Количество гостей и тип события напрямую влияют на бюджет.</p></div>
+    <div class="doc-service"><h4>Площадка</h4><p>Москва или область, аренда зала или открытая территория.</p></div>
+    <div class="doc-service"><h4>Меню и декор</h4><p>Банкет, фуршет или кейтеринг, оформление и программа вечера.</p></div>
+  </div>
+  <p style="color:var(--ink-soft); font-size:14px; margin-bottom:40px;">Итоговая смета фиксируется до предоплаты — без доплат в процессе подготовки.</p>
+
+  <h2>Как это проходит</h2>
+  <div class="script-block">
+    <p>1. Заявка и короткий разговор о поводе, дате и числе гостей.<br>
+    2. Бриф — формат, площадка, пожелания и бюджет.<br>
+    3. Концепция и смета — фиксируем итоговую стоимость.<br>
+    4. Подготовка — площадка, меню, декор, программа.<br>
+    5. Мероприятие — команда на площадке от начала до последнего гостя.</p>
+  </div>
+
+  <h2>Как связаться</h2>
+  <div class="script-block">
+    <p>Расскажите коротко о вашем празднике — предложим формат и вернёмся с расчётом.</p>
+    <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:12px;">
+      <a href="tel:+79001234567" class="btn btn--primary">Позвонить +7 (900) 123-45-67</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer__bottom">
+    <span>© <span id="year"></span> Мастерская Торжеств</span>
+  </div>
+</footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
